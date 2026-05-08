@@ -10,7 +10,7 @@ I am submitting **Option B - Professional**:
 ## Links
 
 - HuggingFace DPO adapter: https://huggingface.co/StevenMup/lab22-dpo-vn
-- GitHub repo: `<paste public GitHub repo URL here before LMS submission>`
+- GitHub repo: https://github.com/StevenMup2004/Day22-Track3-DPO-Alignment-Lab.git
 
 ## Main Evidence
 
@@ -79,15 +79,6 @@ I am submitting **Option B - Professional**:
 | NB6 benchmark JSON/chart | Chart done; JSON evidence in notebook | `07-benchmark-comparison.png`, notebook output |
 | Reflection 7 sections | Done | `submission/REFLECTION.md` |
 | HF Hub push bonus | Done | https://huggingface.co/StevenMup/lab22-dpo-vn |
-
-## Things To Fix Before Final GitHub Push
-
-These are the remaining risks I found in the local repo:
-
-- `scripts/verify.py` is currently missing, so `make verify` cannot run locally.
-- Original template files are currently missing from the working tree: `scripts/`, `setup-laptop.sh`, `setup-colab.sh`, `colab/`, and the six Jupytext notebook source files.
-- Local generated artifacts are not present in this repo checkout: `adapters/sft-mini/`, `adapters/dpo/`, `data/pref/train.parquet`, `data/eval/*.json`, and `gguf/*.gguf`.
-- The repo currently relies on the executed single notebook plus screenshots as evidence. This is probably readable for grading, but the safest route is to restore the original repo files and keep the executed notebook/screenshots/reflection added.
 
 ## Final LMS Submission
 
